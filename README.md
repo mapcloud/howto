@@ -11,4 +11,4 @@
 
 solutions from [installing-devtools-fails-beacuse-of-dependency-but-dependency-is-not-available](https://stackoverflow.com/questions/35063883/installing-devtools-fails-beacuse-of-dependency-but-dependency-is-not-available)
 
-and [installation-of-package-devtools-had-non-zero-exit-status-in-a-powerpc](https://stackoverflow.com/questions/31114991/installation-of-package-devtools-had-non-zero-exit-status-in-a-powerpc), however no need to use be root.
+and [installation-of-package-devtools-had-non-zero-exit-status-in-a-powerpc](https://stackoverflow.com/questions/31114991/installation-of-package-devtools-had-non-zero-exit-status-in-a-powerpc), however no need to be root.
