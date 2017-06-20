@@ -1,5 +1,11 @@
-# How to remove all orphans docker images [source](https://forums.docker.com/t/command-to-remove-all-unused-images/20/4)
-docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")
+# Remove all stoped docker containers
+
+    docker ps -q |xargs docker rm
+    
+# How to remove all orphans docker images 
+[source](https://forums.docker.com/t/command-to-remove-all-unused-images/20/4)
+
+    docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")
 
 # how to install the R-kernel and the orientdb package ubuntu 16.04
 
