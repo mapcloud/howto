@@ -1,5 +1,8 @@
 # how to install the R-kernel and the orientdb package ubuntu 16.04
 
+follow this blog [Jupyter And R Markdown: Notebooks With R](https://www.datacamp.com/community/blog/jupyter-notebook-r#alternatives) but first look make sure you have installed the following packages to avoid the devtools installation error.
+
+
 # Solving installation-of-package-devtools-had-non-zero-exit-status- ...
 
     sudo apt-get install libssl-dev  # need it to install both  'httr' and 'git2r'
