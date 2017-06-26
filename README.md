@@ -1,6 +1,6 @@
 # Remove all stoped docker containers
 
-    docker ps -q |xargs docker rm
+    docker ps -a |xargs docker rm
     
 # How to remove all orphans docker images 
 [source](https://forums.docker.com/t/command-to-remove-all-unused-images/20/4)
